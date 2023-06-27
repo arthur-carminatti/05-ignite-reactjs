@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*"
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
+    "polished": "^4.2.2"
   }
 }
