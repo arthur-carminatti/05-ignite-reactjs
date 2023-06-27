@@ -1,6 +1,6 @@
 import { styled } from './styles'
 
-const button = styled('button', {
+const Button = styled('button', {
     fontFamily: '$default',
     backgroundColor: '$ignite500',
     borderRadius: '$md',
@@ -9,6 +9,6 @@ const button = styled('button', {
 
 export function App() {
     return (
-        <button>Hello World</button>
+        <Button>Hello World</Button>
     )
 }
