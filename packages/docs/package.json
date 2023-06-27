@@ -25,5 +25,9 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.0.23",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*"
   }
 }
