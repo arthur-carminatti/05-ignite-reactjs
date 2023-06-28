@@ -22,7 +22,7 @@ export const {
     themeMap: {
         ...defaultThemeMap,
         height: 'space',
-        widht: 'space'
+        width: 'space'
     },
 
     theme: {
