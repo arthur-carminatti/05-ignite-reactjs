@@ -8,6 +8,13 @@ export default {
     args: {
         src: 'https://github.com/arthur-carminatti.png',
         alt: 'Arthur Carminatti'
+    },
+    argTypes: {
+        src: {
+            control: {
+                type: 'text'
+            }
+        }
     }
 } as Meta<AvatarProps>
 

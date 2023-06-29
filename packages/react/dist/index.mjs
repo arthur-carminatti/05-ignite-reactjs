@@ -147,12 +147,12 @@ var Text = styled("p", {
   color: "$gray100",
   variants: {
     size: {
-      xxs: { fontSize: "xxs" },
-      xs: { fontSize: "xs " },
-      sm: { fontSize: "sm " },
-      md: { fontSize: "md " },
-      lg: { fontSize: "lg " },
-      xl: { fontSize: "xl " },
+      xxs: { fontSize: "$xxs" },
+      xs: { fontSize: "$xs " },
+      sm: { fontSize: "$sm " },
+      md: { fontSize: "$md " },
+      lg: { fontSize: "$lg " },
+      xl: { fontSize: "$xl " },
       "2xl": { fontSize: "$2xl" },
       "4xl": { fontSize: "$4xl" },
       "5xl": { fontSize: "$5xl" },

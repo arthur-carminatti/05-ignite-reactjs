@@ -7,9 +7,29 @@ export default {
     component: Button,
     tags: ['autodocs'],
     args: {
-        children: 'Send'
+        children: 'Send',
+        variant: 'primary',
+        size: 'md',
+        disabled: false
     },
     argTypes: {
+        variant: {
+            options: ['primary', 'secundary', 'tertiary'],
+            control: {
+                type: 'inline-radio'
+            }
+        },
+        size: {
+            options: ['sm', 'md'],
+            control: {
+                type: 'inline-radio'
+            }
+        },
+        disabled: {
+            control: {
+                type: 'boolean'
+            }
+        },
         onClick: {
             action: 'click'
         }
