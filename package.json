@@ -3,12 +3,14 @@
   "workspaces": [
     "packages/*"
   ],
-
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build"
   },
   "devDependencies": {
     "turbo": "^1.10.6"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^7.0.24"
   }
 }
