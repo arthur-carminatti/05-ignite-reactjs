@@ -11,6 +11,6 @@
     "turbo": "^1.10.6"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "^7.0.24"
+    "@storybook/addon-a11y": "^6.5.12"
   }
 }
